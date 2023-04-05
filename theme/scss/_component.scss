@@ -1,0 +1,63 @@
+/* leaflet -------------------- */
+
+// .leaflet-container {
+//   .leaflet-top.leaflet-left {
+//     top: auto !important;
+//     bottom: 60px !important;
+//     right: 10px !important;
+//     left: auto !important;
+//   }
+
+//   div:last-child {
+//     bottom: -50px !important;
+//   }
+
+//   .leaflet-popup-content {
+//     padding-top: 1rem;
+//     font-size: 0.8rem;
+//     line-height: 1.7rem;
+//     text-align: center;
+//   }
+
+//   a.leaflet-popup-close-button {
+//     top: 5px !important;
+//     right: 5px !important;
+//   }
+// }
+
+/* swiper -------------------- */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 35px !important;
+  height: 60px !important;
+  top: 50% !important;
+  margin-top: 0 !important;
+  transform: translateY(-50%) !important;
+  background-color: #fff !important;
+  box-shadow: 1.5px 0 4px 0 rgba(0, 0, 0, 0.15) !important;
+  background-size: 30px 30px;
+  color: #686868 !important;
+
+  &.swiper-button-disabled {
+    visibility: hidden;
+  }
+
+  &::before,
+  &::after {
+    font-size: 1.5rem !important;
+  }
+}
+
+.swiper-button-next::after {
+  font-size: 1.5rem !important;
+}
+
+.swiper-button-next {
+  left: 5px !important;
+  border-radius: 5px !important;
+}
+
+.swiper-button-prev {
+  right: 5px !important;
+  border-radius: 5px !important;
+}
